@@ -1,3 +1,5 @@
+puts "Where is my wand"
+
 director1 = Director.create(
   name: "Steven Spielberg",
   birthplace: "Cincinnati, OH",
@@ -18,7 +20,7 @@ movie1.reviews.create([
   {
     author: "Roger Ebert",
     date: "December 20, 1985",
-    url: "https://www.rogerebert.com/reviews/the-color-purple-1985"        
+    url: "https://www.rogerebert.com/reviews/the-color-purple-1985"
   },
   {
     author: "Variety Staff",
@@ -63,3 +65,5 @@ director3.movies.create(
   category: "Drama",
   discount: false
 )
+
+puts "Damn slitherines, Harry!"
